@@ -1,0 +1,117 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea;
+    color: #333;
+}
+
+.titlename {
+    text-align: center;
+    background-color: #6042d5;
+    color: white;
+    padding: 25px;
+}
+
+.titlename h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.info {
+    width: 500px;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.info.user {
+    margin-bottom: 25px;
+}
+
+.info.user label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #444;
+}
+
+.info.user input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.info.user input:focus {
+    border-color: #8b2e2e;
+}
+
+
+.menu {
+    margin-top: 25px;
+}
+
+.menu h2 {
+    margin-bottom: 5px;
+    color: #715757;
+}
+
+.menu p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.food {
+    display: block;
+    padding: 14px;
+    margin-bottom: 12px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.food:hover {
+    background-color: #f1dddd;
+    border-color: #4a3ac4;
+}
+
+
+.food input {
+    margin-right: 10px;
+}
+
+
+.click {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.click button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4a34d9;
+    color: white;
+    font-size: 17px;
+
+    transition: 0.3s;
+}
+
+.click button:hover {
+    background-color: #331eea;
+}
