@@ -1,0 +1,21 @@
+.navb{
+    background-color: #769826;
+    text-align: center;
+}
+.navOptions{
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
+    
+}
+.navtitle{
+    padding: 0 10px;
+   color: #cbccc7;
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   transition: all 0.3;
+}
+.navtitle:hover{
+ transform: scale(1.25);
+}
